@@ -11,8 +11,8 @@ import time
 warnings.filterwarnings("ignore")
 pyo.init_notebook_mode(connected=True)
 
-api_key = "2AWnChcPI3bVyxbN8L"
-api_secret = "uL3sVoNpdI1LEE3mTFslwGBfKzJDNZ02Sway"
+api_key = ""
+api_secret = ""
 
 exchange = ccxt.bybit({
     'apiKey': api_key,
